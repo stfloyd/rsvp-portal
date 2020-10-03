@@ -1,0 +1,81 @@
+.DS_Store
+node_modules
+/dist
+/data/*
+!/data
+
+# local env files
+.venv
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Basics
+*.py[cod]
+__pycache__
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
+
+# Translations
+*.mo
+*.pot
+
+# Webpack
+webpack-stats.json
+dist/
+
+# Vim
+*~
+*.swp
+*.swo
+
+# npm
+node_modules
+
+# Compass
+.sass-cache
+
+# User-uploaded media
+media/
+
+# Collected staticfiles
+*/static/
+
+# Certs/Cache
+.cache/
+**/certs
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# VS code
+.vscode
+.pythonconfig
+
+# Pipenv
+Pipfile.lock
+
+# Yarn
+yarn.lock
